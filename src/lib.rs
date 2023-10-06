@@ -19,7 +19,7 @@ use self::ethereum_types::{Address, U256};
 
 pub use zkevm_opcode_defs;
 
-pub use blake2;
+pub use blake2_old as blake2;
 pub use k256;
-pub use sha2;
-pub use sha3;
+pub use sha2_old as sha2;
+pub use sha3_old as sha3;
